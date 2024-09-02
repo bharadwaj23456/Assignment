@@ -1,0 +1,54 @@
+# Carousel and Search Bar iOS App
+
+This iOS app demonstrates the use of a carousel view combined with a sticky search bar that pins to the top of the screen when scrolled. The app is built using SwiftUI and follows the MVVM architecture.
+
+## Features
+
+- **Carousel View**: A scrollable, page-based carousel that displays images.
+- **Sticky Search Bar**: A search bar initially placed below the carousel that pins to the top of the screen when scrolled.
+- **Dynamic List**: A list of items that updates based on the search query entered in the search bar.
+
+## Screenshots
+
+![Carousel and Search Bar](path_to_your_screenshot.png)
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/carousel-search-bar-ios-app.git
+   cd carousel-search-bar-ios-app
+Open the project in Xcode:
+
+Double-click the YourApp.xcodeproj file to open the project in Xcode.
+
+Run the app:
+
+Select your target device or simulator, and click the "Run" button in Xcode to build and run the app.
+
+Usage
+Carousel View: Swipe left or right on the carousel to browse through images.
+Search Bar: Type in the search bar to filter the list of items. The search bar will pin to the top as you scroll down the list.
+Code Structure
+ContentView.swift: The main view containing the carousel, search bar, and list.
+PinnedSearchBarView.swift: A reusable view component for the sticky search bar.
+ContentViewModel.swift: The view model managing the app's state, including the list of items and search query.
+Item.swift: The model representing each list item.
+CarouselView.swift: A reusable view component for the image carousel.
+
+
+Styling the App
+You can customize the appearance of the carousel, search bar, and list by modifying the SwiftUI views directly in the relevant files. Experiment with different modifiers to change the styling as needed.
+
+Contact
+For any questions or feedback, feel free to reach out to:
+
+Name: Reddy Bharadwaj Chowdary
+Email: YourEmail@example.com
+
+
+Acknowledgments
+SwiftUI documentation and community for providing useful examples and inspiration.
+Apple Developer resources for detailed guides and tutorials.
+
