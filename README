@@ -8,17 +8,11 @@ This iOS app demonstrates the use of a carousel view combined with a sticky sear
 - **Sticky Search Bar**: A search bar initially placed below the carousel that pins to the top of the screen when scrolled.
 - **Dynamic List**: A list of items that updates based on the search query entered in the search bar.
 
-## Screenshots
-
-![Carousel and Search Bar](path_to_your_screenshot.png)
 
 ## Installation
 
-1. **Clone the repository:**
+**Clone the repository:**
 
-   ```bash
-   git clone https://github.com/your-username/carousel-search-bar-ios-app.git
-   cd carousel-search-bar-ios-app
 Open the project in Xcode:
 
 Double-click the YourApp.xcodeproj file to open the project in Xcode.
@@ -45,7 +39,7 @@ Contact
 For any questions or feedback, feel free to reach out to:
 
 Name: Reddy Bharadwaj Chowdary
-Email: YourEmail@example.com
+Email: reddybharadwaj.cse63@gmail.com
 
 
 Acknowledgments
